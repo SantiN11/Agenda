@@ -59,7 +59,7 @@ public class Agenda {
 //metodo para agregar reunion
     public void agregarReunion(Reunion reunion) {
         if (validarNombre(reunion.getDescripcion())) {
-            Agenda.mostrarMensaje("Error!!! el Grupo ya está registrado");
+            Agenda.mostrarMensaje("Error!!! La reunion ya está registrada");
         } else {
             reuniones.add(reunion);
         }
